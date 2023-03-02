@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
       "userOne: James Bond",
       "userTwo: Will Smith",
       "userThree: Sara Pain",
-      "userFour: Mike Tyson",
+
       "userFive: Bratt Pitt",
     ],
   });
