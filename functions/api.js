@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
       "userOne: James Bond",
       "userTwo: Will Smith",
       "userThree: Sara Pain",
-
+      "userFour: Mike Tyson",
       "userFive: Bratt Pitt",
     ],
   });
@@ -17,4 +17,5 @@ router.get("/", (req, res) => {
 
 app.use("/.netlify/functions/api", router);
 
+module.exports = app;
 module.exports.handler = serverless(app);
