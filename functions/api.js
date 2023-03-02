@@ -6,7 +6,6 @@ const router = express.Router();
 router.get("/", (req, res) => {
   res.json({
     users: [
-      "userOne: James Bond",
       "userTwo: Will Smith",
       "userThree: Sara Pain",
       "userFour: Mike Tyson",
