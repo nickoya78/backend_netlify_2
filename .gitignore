@@ -1,2 +1,13 @@
-# Local Netlify folder
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/functions-build
+.cache
+
+# netlify
 .netlify
+
